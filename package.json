@@ -1,0 +1,46 @@
+{
+  "name": "clibutter",
+  "version": "1.0.0",
+  "description": "Automated shopping assistant with CLI interface",
+  "main": "dist/index.js",
+  "bin": {
+    "clibutter": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "cli": "node dist/index.js"
+  },
+  "keywords": [
+    "cli",
+    "bot",
+    "automation",
+    "pastry",
+    "pre-order"
+  ],
+  "author": "Jenson Cripps",
+  "license": "MIT",
+  "dependencies": {
+    "@types/chalk": "^0.4.31",
+    "@types/figlet": "^1.5.8",
+    "axios": "^1.6.7",
+    "chalk": "^4.1.2",
+    "commander": "^12.0.0",
+    "date-fns": "^3.3.1",
+    "figlet": "^1.7.0",
+    "inquirer": "^8.2.4",
+    "playwright": "^1.42.1",
+    "uuid": "^9.0.1",
+    "winston": "^3.12.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.25",
+    "@types/uuid": "^9.0.8",
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "eslint": "^9.23.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}

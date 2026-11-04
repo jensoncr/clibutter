@@ -1,0 +1,7 @@
+{
+  "productUrl": "https://www.hotplate.com/your-store/your-product-id",
+  "productName": "Your Product Name",
+  "timeoutMs": 30000,
+  "concurrent": 1,
+  "headless": false
+}
