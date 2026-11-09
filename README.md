@@ -1,4 +1,4 @@
-# CLIButter 🥐
+# CLIButter 🥐 (2024 PROJECT) 
 
 A high-performance CLI bot designed to automate pastry pre-orders from Butter & Crumble with maximum speed and reliability.
 
